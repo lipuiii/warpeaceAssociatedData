@@ -1,0 +1,1228 @@
+@prefix : <http://wrrc.org/wap#> .
+
+:谢苗·切克马尔  a               :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "谢苗·切克马尔";
+        :employedBy       :伊利亚·安德烈耶维奇·罗斯托夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第九章";
+        :hasOccupation    :Occupation_近侍;
+        :nationality      "俄罗斯";
+        :russianName      "Семён Чекмар";
+        :servesFamily     :罗斯托夫家族;
+        :title            "近侍" .
+
+:瓦西里伊奇  a                 :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "瓦西里伊奇";
+        :employedBy       :伊利亚·安德烈耶维奇·罗斯托夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第七章";
+        :hasOccupation    :Occupation_餐厅管事;
+        :nationality      "俄罗斯";
+        :russianName      "Васильич";
+        :servesFamily     :罗斯托夫家族;
+        :title            "餐厅管事" .
+
+:皮埃尔·别祖霍夫  :hasSpouse         :娜塔莉娅·伊里尼什娜·罗斯托娃;
+        :participatesInEvent  :皮埃尔决斗 , :波罗底诺战役 , :皮埃尔被俘 , :莫斯科大火 , :别祖霍夫继承案 , :莫斯科撤退 .
+
+:玛夫拉·库兹米尼什娜  a            :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "玛夫拉·库兹米尼什娜";
+        :employedBy       :伊利亚·安德烈耶维奇·罗斯托夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第三部第一章";
+        :hasOccupation    :Occupation_女管家;
+        :managesEstateOf  :Occupation_女管家;
+        :nationality      "俄罗斯";
+        :russianName      "Мавра Кузьминична";
+        :servesFamily     :罗斯托夫家族;
+        :title            "女管家" .
+
+:安德烈·尼古拉耶维奇·鲍尔康斯基  a      :Person;
+        :belongsToFamily  :鲍尔康斯基家族;
+        :childOf          :尼古拉·安德烈耶维奇·鲍尔康斯基;
+        :chineseName      "安德烈·鲍尔康斯基";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第一章";
+        :hasChild         :小尼古拉;
+        :hasFather        :尼古拉·安德烈耶维奇·鲍尔康斯基;
+        :hasOccupation    :Occupation_军官;
+        :hasSpouse        :丽扎维塔·卡尔洛夫娜 , :丽莎·鲍尔康斯卡娅;
+        :loverOf          :娜塔莎·罗斯托娃;
+        :nationality      "俄罗斯";
+        :russianName      "Андрей Николаевич Болконский";
+        :title            "军官" .
+
+:娜塔莉亚·罗斯托娃  a             :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :childOf          :玛丽亚·尼古拉耶芙娜·鲍尔康斯卡娅;
+        :chineseName      "娜塔莉亚·罗斯托娃";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第三章";
+        :hasChild         :薇拉·罗斯托娃 , :尼古拉·罗斯托夫 , :娜塔莎·罗斯托娃 , :彼佳·罗斯托夫;
+        :hasOccupation    :Occupation_伯爵夫人;
+        :hasSpouse        :伊利亚·安德烈耶维奇·罗斯托夫;
+        :nationality      "俄罗斯";
+        :russianName      "Наталья Ростова";
+        :title            "伯爵夫人" .
+
+:基里尔·弗拉季米罗维奇·别祖霍夫  a      :Person;
+        :belongsToFamily  :别祖霍夫家族;
+        :chineseName      "基里尔·别祖霍夫";
+        :employs          :萨维利奇;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第一章";
+        :hasChild         :彼得·基里洛维奇·别祖霍夫;
+        :hasGrandChild    :丽莎 , :彼佳;
+        :hasNiece         :索菲娅·马蒙托娃 , :奥莉加·谢苗诺夫娜·马蒙托娃 , :索菲娅·谢苗诺夫娜·马蒙托娃 , :奥莉加·马蒙托娃 , :卡捷琳娜·谢苗诺夫娜·马蒙托娃 , :卡捷琳娜·马蒙托娃;
+        :hasOccupation    :Occupation_别祖霍夫伯爵;
+        :nationality      "俄罗斯";
+        :russianName      "Кирилл Владимирович Безухов";
+        :title            "别祖霍夫伯爵" .
+
+:卡佳     a                 :Person;
+        :belongsToFamily  :鲍尔康斯基家族;
+        :chineseName      "卡佳";
+        :employedBy       :玛丽亚·尼古拉耶芙娜·鲍尔康斯卡娅 , :玛丽亚·鲍尔康斯卡娅;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第四章";
+        :hasOccupation    :Occupation_女仆;
+        :nationality      "俄罗斯";
+        :russianName      "Катя";
+        :servesFamily     :鲍尔康斯基家族;
+        :title            "女仆" .
+
+:普拉东·卡拉塔耶夫  a                 :Person;
+        :belongsToFamily      :其他;
+        :chineseName          "普拉东·卡拉塔耶夫";
+        :ethnicity            "俄罗斯族";
+        :firstAppearance      "第四部第一章";
+        :hasOccupation        :Occupation_农民士兵;
+        :nationality          "俄罗斯";
+        :participatesInEvent  :皮埃尔被俘;
+        :russianName          "Платон Каратаев";
+        :title                "农民士兵" .
+
+:安德烈·罗斯托夫  :childOf  :玛丽亚·尼古拉耶芙娜·鲍尔康斯卡娅 .
+
+:福卡     a                 :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "福卡";
+        :employedBy       :伊利亚·安德烈耶维奇·罗斯托夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第七章";
+        :hasOccupation    :Occupation_餐具管家;
+        :managesEstateOf  :Occupation_餐具管家;
+        :nationality      "俄罗斯";
+        :russianName      "Фока";
+        :servesFamily     :罗斯托夫家族;
+        :title            "餐具管家" .
+
+:伊波利特·库拉金  :childOf  :瓦西里·谢尔盖耶维奇·库拉金 , :阿琳娜·库拉金娜 .
+
+:其他     a                  :Family;
+        :familyAffectedBy  :皮埃尔被俘;
+        :familyName        "其他" .
+
+:伊波利特·瓦西里耶维奇·库拉金  a       :Person;
+        :belongsToFamily  :库拉金家族;
+        :childOf          :瓦西里·谢尔盖耶维奇·库拉金;
+        :chineseName      "伊波利特·库拉金";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第二章";
+        :hasFather        :瓦西里·谢尔盖耶维奇·库拉金;
+        :hasMother        :阿琳娜·库拉金娜;
+        :hasOccupation    :Occupation_外交官;
+        :nationality      "俄罗斯";
+        :russianName      "Ипполит Васильевич Курагин";
+        :title            "外交官" .
+
+:瓦西里·库拉金  :participatesInEvent  :别祖霍夫继承案 .
+
+:图申上尉   :participatesInEvent  :保罗格勒团冲锋 .
+
+:奥莉加·马蒙托娃  :hasSibling  :索菲娅·谢苗诺夫娜·马蒙托娃 , :卡捷琳娜·谢苗诺夫娜·马蒙托娃 .
+
+:别祖霍夫家族  a           :Family;
+        :alliedWith  :库拉金家族;
+        :familyName  "别祖霍夫家族" .
+
+:玛丽亚·阿赫罗西莫娃  :participatesInEvent  :娜塔莎私奔事件 , :罗斯托夫家族破产 .
+
+:叶夫斯塔菲耶维奇  a              :Person;
+        :belongsToFamily  :别祖霍夫家族;
+        :chineseName      "叶夫斯塔菲耶维奇";
+        :employedBy       :彼得·基里洛维奇·别祖霍夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第四章";
+        :hasOccupation    :Occupation_车夫;
+        :nationality      "俄罗斯";
+        :russianName      "Евстафиевич";
+        :servesFamily     :别祖霍夫家族;
+        :title            "车夫" .
+
+:薇拉·罗斯托娃  :childOf  :娜塔莉亚·罗斯托娃 , :伊利亚·安德烈耶维奇·罗斯托夫 .
+
+:尼古拉·鲍尔康斯基  :employs  :塔拉斯2 , :吉洪 , :德龙 , :雅科夫·阿尔帕特奇 , :彼得鲁什卡 .
+
+:尼古拉·罗斯托夫  :childOf           :伊利亚·安德烈耶维奇·罗斯托夫 , :娜塔莉亚·罗斯托娃;
+        :employs              :丹尼洛（训犬师） , :米沙 , :乌瓦尔卡 , :米哈伊洛;
+        :hasSpouse            :玛丽亚·尼古拉耶芙娜·鲍尔康斯卡娅;
+        :participatesInEvent  :保罗格勒团冲锋 , :奥斯特里茨战役 , :童山庄园撤退 , :安德烈之死 , :罗斯托夫家族破产 .
+
+:塔拉斯1   a                 :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "塔拉斯";
+        :employedBy       :伊利亚·安德烈耶维奇·罗斯托夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第九章";
+        :hasOccupation    :Occupation_厨子;
+        :nationality      "俄罗斯";
+        :russianName      "Тарас";
+        :servesFamily     :罗斯托夫家族;
+        :title            "厨子" .
+
+:伊利亚·安德烈耶维奇·罗斯托夫  a       :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "伊利亚·罗斯托夫";
+        :employs          :爱德华·卡尔雷奇·迪姆勒 , :米哈伊洛 , :塔拉斯1 , :福卡 , :马克西姆 , :乌瓦尔卡 , :谢苗·切克马尔 , :尼基塔） , :瓦西里伊奇 , :丹尼洛（训犬师） , :玛夫拉·库兹米尼什娜 , :约格尔 , :扎哈尔 , :米季卡;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第一章";
+        :hasChild         :娜塔莎·罗斯托娃 , :彼得·伊里奇·罗斯托夫 , :尼古拉·伊里奇·罗斯托夫 , :彼佳·罗斯托夫 , :娜塔莉娅·伊里尼什娜·罗斯托娃 , :尼古拉·罗斯托夫 , :薇拉·伊利尼奇娜·罗斯托娃 , :薇拉·罗斯托娃;
+        :hasGrandChild    :彼佳 , :丽莎;
+        :hasOccupation    :Occupation_罗斯托夫伯爵;
+        :hasSpouse        :娜塔莉亚·罗斯托娃;
+        :nationality      "俄罗斯";
+        :russianName      "Илья Андреевич Ростов";
+        :title            "罗斯托夫伯爵" .
+
+:杰尼索夫   :employs              :拉夫鲁什卡;
+        :participatesInEvent  :保罗格勒团冲锋 .
+
+:团部军医   :hasSpouse  :玛丽亚·亨里霍夫娜 .
+
+:扎哈尔    a                 :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "扎哈尔";
+        :employedBy       :伊利亚·安德烈耶维奇·罗斯托夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第七章";
+        :hasOccupation    :Occupation_马夫;
+        :nationality      "俄罗斯";
+        :russianName      "Захар";
+        :servesFamily     :罗斯托夫家族;
+        :title            "马夫" .
+
+:阿纳托利·库拉金  :childOf           :瓦西里·谢尔盖耶维奇·库拉金 , :阿琳娜·库拉金娜;
+        :employs              :伊格纳什卡 , :约瑟夫;
+        :participatesInEvent  :娜塔莎私奔事件 .
+
+:彼得·基里洛维奇·别祖霍夫  a         :Person;
+        :belongsToFamily  :别祖霍夫家族;
+        :childOf          :基里尔·弗拉季米罗维奇·别祖霍夫;
+        :chineseName      "皮埃尔·别祖霍夫";
+        :employs          :安娜·马卡罗夫娜 , :叶夫斯塔菲耶维奇;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第一章";
+        :friendOf         :安德烈·鲍尔康斯基;
+        :hasChild         :丽莎 , :彼佳;
+        :hasFather        :基里尔·弗拉季米罗维奇·别祖霍夫;
+        :hasOccupation    :Occupation_伯爵继承人;
+        :hasSpouse        :叶莲娜·瓦西里耶夫娜·库拉金娜 , :娜塔莎·罗斯托娃;
+        :nationality      "俄罗斯";
+        :russianName      "Пьер Безухов";
+        :title            "伯爵继承人" .
+
+:伊格纳什卡  a                 :Person;
+        :belongsToFamily  :库拉金家族;
+        :chineseName      "伊格纳特";
+        :employedBy       :阿纳托利·瓦西里耶维奇·库拉金 , :阿纳托利·库拉金;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第二部第三章";
+        :hasOccupation    :Occupation_仆人;
+        :nationality      "俄罗斯";
+        :russianName      "Игнашка";
+        :servesFamily     :库拉金家族;
+        :title            "仆人" .
+
+:安娜·德鲁别茨卡娅  :participatesInEvent  :别祖霍夫继承案 .
+
+:索菲娅·马蒙托娃  :hasSibling  :奥莉加·谢苗诺夫娜·马蒙托娃 , :卡捷琳娜·谢苗诺夫娜·马蒙托娃 .
+
+:丹尼洛（训犬师）  a              :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "丹尼洛";
+        :employedBy       :尼古拉·罗斯托夫 , :伊利亚·安德烈耶维奇·罗斯托夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第二部第四章";
+        :hasOccupation    :Occupation_驯犬师;
+        :nationality      "俄罗斯";
+        :russianName      "Данило";
+        :servesFamily     :罗斯托夫家族;
+        :title            "驯犬师" .
+
+:德米特里·罗斯托夫  :childOf  :玛丽亚·尼古拉耶芙娜·鲍尔康斯卡娅 .
+
+:多洛霍夫   :participatesInEvent  :皮埃尔决斗 , :娜塔莎私奔事件 .
+
+:叶莲娜·瓦西里耶夫娜·库拉金娜  a       :Person;
+        :belongsToFamily  :库拉金家族;
+        :childOf          :瓦西里·谢尔盖耶维奇·库拉金;
+        :chineseName      "海伦·库拉金娜";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第二章";
+        :hasFather        :瓦西里·谢尔盖耶维奇·库拉金;
+        :hasMother        :阿琳娜·库拉金娜;
+        :hasOccupation    :Occupation_社交名媛;
+        :hasSpouse        :彼得·基里洛维奇·别祖霍夫;
+        :nationality      "俄罗斯";
+        :russianName      "Элен Курагина";
+        :title            "社交名媛" .
+
+:米哈伊洛   a                 :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "米哈伊尔";
+        :employedBy       :尼古拉·罗斯托夫 , :伊利亚·安德烈耶维奇·罗斯托夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第二部第四章";
+        :hasOccupation    :Occupation_猎手;
+        :nationality      "俄罗斯";
+        :russianName      "Михаил";
+        :servesFamily     :罗斯托夫家族;
+        :title            "猎手" .
+
+:玛莎     a                 :Person;
+        :belongsToFamily  :鲍尔康斯基家族;
+        :chineseName      "玛莎";
+        :employedBy       :玛丽亚·尼古拉耶芙娜·鲍尔康斯卡娅 , :玛丽亚·鲍尔康斯卡娅;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第四章";
+        :hasOccupation    :Occupation_女仆;
+        :nationality      "俄罗斯";
+        :russianName      "Маша";
+        :servesFamily     :鲍尔康斯基家族;
+        :title            "女仆" .
+
+:尼基塔）   a                 :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "尼基塔";
+        :employedBy       :伊利亚·安德烈耶维奇·罗斯托夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第七章";
+        :hasOccupation    :Occupation_仆人;
+        :nationality      "俄罗斯";
+        :russianName      "Никита";
+        :servesFamily     :罗斯托夫家族;
+        :title            "仆人" .
+
+:罗斯托夫家族  a                    :Family;
+        :alliedWith           :鲍尔康斯基家族 , :罗斯托夫家族;
+        :familyName           "罗斯托夫家族";
+        :participatesInEvent  :莫斯科大火 , :莫斯科撤退 .
+
+:雅科夫·阿尔帕特奇  a             :Person;
+        :belongsToFamily  :鲍尔康斯基家族;
+        :chineseName      "雅科夫·阿尔帕特奇";
+        :employedBy       :尼古拉·安德烈耶维奇·鲍尔康斯基 , :尼古拉·鲍尔康斯基;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第四章";
+        :hasOccupation    :Occupation_管家;
+        :managesEstateOf  :Occupation_管家;
+        :nationality      "俄罗斯";
+        :russianName      "Яков Алпатыч";
+        :servesFamily     :鲍尔康斯基家族;
+        :title            "管家" .
+
+:玛丽亚·尼古拉耶芙娜·鲍尔康斯卡娅  a     :Person;
+        :belongsToFamily  :鲍尔康斯基家族;
+        :childOf          :尼古拉·安德烈耶维奇·鲍尔康斯基;
+        :chineseName      "玛丽亚·鲍尔康斯卡娅";
+        :employs          :卡佳 , :玛莎;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第一章";
+        :hasChild         :安德烈·罗斯托夫 , :娜塔莉亚·罗斯托娃 , :德米特里·罗斯托夫;
+        :hasFather        :尼古拉·安德烈耶维奇·鲍尔康斯基;
+        :hasGrandChild    :薇拉·罗斯托娃 , :尼古拉·罗斯托夫 , :娜塔莎·罗斯托娃 , :彼佳·罗斯托夫;
+        :hasOccupation    :Occupation_公爵小姐;
+        :hasSpouse        :尼古拉·伊里奇·罗斯托夫 , :尼古拉·罗斯托夫;
+        :nationality      "俄罗斯";
+        :russianName      "Мария Николаевна Болконская";
+        :title            "公爵小姐" .
+
+:塔拉斯2   a                 :Person;
+        :belongsToFamily  :鲍尔康斯基家族;
+        :chineseName      "塔拉斯";
+        :employedBy       :尼古拉·鲍尔康斯基 , :尼古拉·安德烈耶维奇·鲍尔康斯基;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第二部第二章";
+        :hasOccupation    :Occupation_花匠;
+        :nationality      "俄罗斯";
+        :russianName      "Тарас";
+        :servesFamily     :鲍尔康斯基家族;
+        :title            "花匠" .
+
+:丽莎·鲍尔康斯卡娅  :hasSpouse  :安德烈·尼古拉耶维奇·鲍尔康斯基 .
+
+:约瑟夫    a                 :Person;
+        :belongsToFamily  :库拉金家族;
+        :chineseName      "约瑟夫";
+        :employedBy       :阿纳托利·库拉金 , :阿纳托利·瓦西里耶维奇·库拉金;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第二部第三章";
+        :hasOccupation    :Occupation_仆人;
+        :nationality      "俄罗斯";
+        :russianName      "Иосиф";
+        :servesFamily     :库拉金家族;
+        :title            "仆人" .
+
+:薇拉·伊利尼奇娜·罗斯托娃  a         :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :childOf          :伊利亚·安德烈耶维奇·罗斯托夫;
+        :chineseName      "薇拉·罗斯托娃";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第七章";
+        :hasFather        :伊利亚·安德烈耶维奇·罗斯托夫;
+        :hasMother        :娜塔莉亚·罗斯托娃;
+        :hasOccupation    :Occupation_伯爵长女;
+        :nationality      "俄罗斯";
+        :russianName      "Вера Ильинична Ростова";
+        :title            "伯爵长女" .
+
+:丽莎     a                 :Person;
+        :belongsToFamily  :别祖霍夫家族;
+        :childOf          :彼得·基里洛维奇·别祖霍夫 , :娜塔莉娅·伊里尼什娜·罗斯托娃;
+        :chineseName      "伊丽莎白·别祖霍娃";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第四部第四章";
+        :hasFather        :彼得·基里洛维奇·别祖霍夫;
+        :hasMother        :娜塔莎·罗斯托娃;
+        :hasOccupation    :Occupation_贵族小姐;
+        :nationality      "俄罗斯";
+        :russianName      "Лиза Безухова";
+        :title            "贵族小姐" .
+
+:鲍里斯·德鲁别茨科伊  :childOf  :安娜·米哈伊洛夫娜·德鲁别茨卡娅 .
+
+:乌瓦尔卡   a                 :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "乌瓦尔卡";
+        :employedBy       :尼古拉·罗斯托夫 , :伊利亚·安德烈耶维奇·罗斯托夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第二部第四章";
+        :hasOccupation    :Occupation_猎手;
+        :nationality      "俄罗斯";
+        :russianName      "Уварка";
+        :servesFamily     :罗斯托夫家族;
+        :title            "猎手" .
+
+:安德烈·鲍尔康斯基  :childOf          :尼古拉·安德烈耶维奇·鲍尔康斯基;
+        :hasSpouse            :丽扎维塔·卡尔洛夫娜;
+        :participatesInEvent  :安德烈之死 , :奥斯特里茨战役 , :波罗底诺战役 .
+
+:尼古拉·安德烈耶维奇·鲍尔康斯基  a      :Person;
+        :belongsToFamily  :鲍尔康斯基家族;
+        :chineseName      "尼古拉·鲍尔康斯基";
+        :employs          :吉洪 , :雅科夫·阿尔帕特奇 , :塔拉斯2;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第一章";
+        :hasChild         :玛丽亚·鲍尔康斯卡娅 , :玛丽亚·尼古拉耶芙娜·鲍尔康斯卡娅 , :安德烈·鲍尔康斯基 , :安德烈·尼古拉耶维奇·鲍尔康斯基;
+        :hasGrandChild    :娜塔莉亚·罗斯托娃 , :德米特里·罗斯托夫 , :安德烈·罗斯托夫 , :小尼古拉;
+        :hasOccupation    :Occupation_退休将军;
+        :nationality      "俄罗斯";
+        :russianName      "Николай Андреевич Болконский";
+        :title            "退休将军" .
+
+:马克西姆   a                 :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "马克西姆";
+        :employedBy       :伊利亚·安德烈耶维奇·罗斯托夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第九章";
+        :hasOccupation    :Occupation_花匠;
+        :nationality      "俄罗斯";
+        :russianName      "Максим";
+        :servesFamily     :罗斯托夫家族;
+        :title            "花匠" .
+
+:娜塔莉娅·伊里尼什娜·罗斯托娃  a       :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :childOf          :伊利亚·安德烈耶维奇·罗斯托夫;
+        :chineseName      "娜塔莎·罗斯托娃";
+        :employs          :约格尔;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第七章";
+        :hasChild         :丽莎 , :彼佳;
+        :hasFather        :伊利亚·安德烈耶维奇·罗斯托夫;
+        :hasMother        :娜塔莉亚·罗斯托娃;
+        :hasOccupation    :Occupation_伯爵小姐;
+        :hasSpouse        :皮埃尔·别祖霍夫;
+        :loverOf          :安德烈·尼古拉耶维奇·鲍尔康斯基;
+        :nationality      "俄罗斯";
+        :russianName      "Наталья Ильинична Ростова";
+        :title            "伯爵小姐" .
+
+:小尼古拉   :childOf              :安德烈·尼古拉耶维奇·鲍尔康斯基 , :丽扎维塔·卡尔洛夫娜;
+        :employs              :德萨尔;
+        :participatesInEvent  :童山庄园撤退 .
+
+:娜塔莎·罗斯托娃  :childOf           :伊利亚·安德烈耶维奇·罗斯托夫 , :娜塔莉亚·罗斯托娃;
+        :employs              :波莉娅 , :康德拉季耶夫娜;
+        :hasSpouse            :彼得·基里洛维奇·别祖霍夫;
+        :participatesInEvent  :罗斯托夫家族破产 , :安德烈之死 , :娜塔莎私奔事件 .
+
+:尼古拉·伊里奇·罗斯托夫  a          :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :childOf          :伊利亚·安德烈耶维奇·罗斯托夫;
+        :chineseName      "尼古拉·罗斯托夫";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第七章";
+        :hasFather        :伊利亚·安德烈耶维奇·罗斯托夫;
+        :hasMother        :娜塔莉亚·罗斯托娃;
+        :hasOccupation    :Occupation_骠骑兵军官;
+        :hasSpouse        :玛丽亚·尼古拉耶芙娜·鲍尔康斯卡娅 , :玛丽亚·鲍尔康斯卡娅;
+        :nationality      "俄罗斯";
+        :russianName      "Николай Ильич Ростов";
+        :title            "骠骑兵军官" .
+
+:库图佐夫   :participatesInEvent  :法军溃退 , :奥斯特里茨战役 , :莫斯科撤退 , :波罗底诺战役 .
+
+:安娜·马卡罗夫娜  a              :Person;
+        :belongsToFamily  :别祖霍夫家族;
+        :chineseName      "安娜·马卡罗夫娜";
+        :employedBy       :彼得·基里洛维奇·别祖霍夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第五章";
+        :hasOccupation    :Occupation_保姆;
+        :nationality      "俄罗斯";
+        :russianName      "Анна Макаровна";
+        :servesFamily     :别祖霍夫家族;
+        :title            "保姆" .
+
+:叶莲娜·库拉金娜  :childOf  :瓦西里·谢尔盖耶维奇·库拉金 , :阿琳娜·库拉金娜 .
+
+:玛丽亚·鲍尔康斯卡娅  :childOf         :尼古拉·安德烈耶维奇·鲍尔康斯基;
+        :employs              :费多西尤什卡 , :玛莎 , :杜尼亚莎 , :卡佳;
+        :hasSpouse            :尼古拉·伊里奇·罗斯托夫;
+        :participatesInEvent  :童山庄园撤退 , :安德烈之死 .
+
+:海伦·库拉金娜  :participatesInEvent  :皮埃尔决斗 .
+
+:丽扎维塔·卡尔洛夫娜  a            :Person;
+        :belongsToFamily  :鲍尔康斯基家族;
+        :chineseName      "丽莎·鲍尔康斯卡娅";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第五章";
+        :hasChild         :小尼古拉;
+        :hasOccupation    :Occupation_公爵夫人;
+        :hasSpouse        :安德烈·尼古拉耶维奇·鲍尔康斯基 , :安德烈·鲍尔康斯基;
+        :nationality      "俄罗斯";
+        :russianName      "Лиза Болконская";
+        :title            "公爵夫人" .
+
+:约格尔    a                 :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "约格尔";
+        :employedBy       :伊利亚·安德烈耶维奇·罗斯托夫 , :娜塔莉娅·伊里尼什娜·罗斯托娃;
+        :ethnicity        "日耳曼族";
+        :firstAppearance  "第一部第八章";
+        :hasOccupation    :Occupation_舞蹈教师;
+        :nationality      "德国";
+        :russianName      "Йогель";
+        :servesFamily     :罗斯托夫家族;
+        :title            "舞蹈教师" .
+
+:爱德华·卡尔雷奇·迪姆勒  a          :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "爱德华·迪姆勒";
+        :employedBy       :伊利亚·安德烈耶维奇·罗斯托夫;
+        :ethnicity        "日耳曼族";
+        :firstAppearance  "第一部第七章";
+        :hasOccupation    :Occupation_乐师;
+        :nationality      "德国";
+        :russianName      "Эдуард Карлович Диммлер";
+        :servesFamily     :罗斯托夫家族;
+        :title            "乐师" .
+
+:彼佳·罗斯托夫  :childOf  :伊利亚·安德烈耶维奇·罗斯托夫 , :娜塔莉亚·罗斯托娃 .
+
+:伊利亚·罗斯托夫  :participatesInEvent  :罗斯托夫家族破产 .
+
+:卡捷琳娜·马蒙托娃  :hasSibling  :奥莉加·谢苗诺夫娜·马蒙托娃 , :索菲娅·谢苗诺夫娜·马蒙托娃 .
+
+:吉洪     a                 :Person;
+        :belongsToFamily  :鲍尔康斯基家族;
+        :chineseName      "吉洪";
+        :employedBy       :尼古拉·鲍尔康斯基 , :尼古拉·安德烈耶维奇·鲍尔康斯基;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第四章";
+        :hasOccupation    :Occupation_侍者;
+        :nationality      "俄罗斯";
+        :russianName      "Тихон";
+        :servesFamily     :鲍尔康斯基家族;
+        :title            "侍者" .
+
+:阿纳托利·瓦西里耶维奇·库拉金  a       :Person;
+        :belongsToFamily  :库拉金家族;
+        :childOf          :瓦西里·谢尔盖耶维奇·库拉金;
+        :chineseName      "阿纳托利·库拉金";
+        :employs          :约瑟夫 , :伊格纳什卡;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第二章";
+        :hasFather        :瓦西里·谢尔盖耶维奇·库拉金;
+        :hasMother        :阿琳娜·库拉金娜;
+        :hasOccupation    :Occupation_公爵继承人;
+        :nationality      "俄罗斯";
+        :russianName      "Анатолий Васильевич Курагин";
+        :title            "公爵继承人" .
+
+:彼佳     a                 :Person;
+        :belongsToFamily  :别祖霍夫家族;
+        :childOf          :娜塔莉娅·伊里尼什娜·罗斯托娃 , :彼得·基里洛维奇·别祖霍夫;
+        :chineseName      "彼得·别祖霍夫";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第四部第四章";
+        :hasFather        :彼得·基里洛维奇·别祖霍夫;
+        :hasMother        :娜塔莎·罗斯托娃;
+        :hasOccupation    :Occupation_继承人;
+        :nationality      "俄罗斯";
+        :russianName      "Петя Безухов";
+        :title            "继承人" .
+
+:彼得·伊里奇·罗斯托夫  a           :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :childOf          :伊利亚·安德烈耶维奇·罗斯托夫;
+        :chineseName      "彼佳·罗斯托夫";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第七章";
+        :hasFather        :伊利亚·安德烈耶维奇·罗斯托夫;
+        :hasMother        :娜塔莉亚·罗斯托娃;
+        :hasOccupation    :Occupation_军官;
+        :nationality      "俄罗斯";
+        :russianName      "Петя Ростов";
+        :title            "军官" .
+
+:杰尼索夫游击队  :participatesInEvent  :法军溃退 .
+
+:鲍尔康斯基家族  a          :Family;
+        :alliedWith  :罗斯托夫家族 , :鲍尔康斯基家族;
+        :familyName  "鲍尔康斯基家族" .
+
+:拿破仑    :participatesInEvent  :奥斯特里茨战役 , :皮埃尔被俘 , :莫斯科大火 , :法军溃退 , :波罗底诺战役 .
+
+:库拉金家族  a            :Family;
+        :alliedWith  :库拉金家族 , :别祖霍夫家族;
+        :familyName  "库拉金家族" .
+
+:萨维利奇   a                 :Person;
+        :belongsToFamily  :别祖霍夫家族;
+        :chineseName      "萨维利奇";
+        :employedBy       :基里尔·弗拉季米罗维奇·别祖霍夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第三章";
+        :hasOccupation    :Occupation_管家;
+        :managesEstateOf  :Occupation_管家;
+        :nationality      "俄罗斯";
+        :russianName      "Савельич";
+        :servesFamily     :别祖霍夫家族;
+        :title            "管家" .
+
+:米季卡    a                 :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "德米特里";
+        :employedBy       :伊利亚·安德烈耶维奇·罗斯托夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第九章";
+        :hasOccupation    :Occupation_马夫;
+        :nationality      "俄罗斯";
+        :russianName      "Дмитрий";
+        :servesFamily     :罗斯托夫家族;
+        :title            "马夫" .
+
+:贵族舞会   :relatedTo  :安娜·舍列尔 .
+
+:简单生活哲学  :relatedTo  :玛丽亚·鲍尔康斯卡娅 .
+
+:德龙     a                 :Person;
+        :belongsToFamily  :鲍尔康斯基家族;
+        :chineseName      "德龙";
+        :employedBy       :尼古拉·鲍尔康斯基;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第三部第二章";
+        :hasOccupation    :Occupation_村长;
+        :nationality      "俄罗斯";
+        :russianName      "Дрон";
+        :title            "村长" .
+
+:茶炊     :relatedTo  :罗斯托夫伯爵夫人 .
+
+:罗斯托夫家族破产  a             :Event;
+        :eventDate       "1812年前";
+        :eventLocation   "莫斯科";
+        :eventResult     "";
+        :involvesPerson  :伊利亚·罗斯托夫 , :尼古拉·罗斯托夫 , :娜塔莎·罗斯托娃 , :玛丽亚·阿赫罗西莫娃;
+        :relatedTo       :尼古拉·罗斯托夫 .
+
+:玛丽亚·德米特里耶夫娜·阿赫罗西莫娃  a    :Person;
+        :belongsToFamily  :其他;
+        :chineseName      "玛丽亚·阿赫罗西莫娃";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第八章";
+        :hasOccupation    :Occupation_贵族老夫人;
+        :nationality      "俄罗斯";
+        :russianName      "Мария Дмитриевна Ахросимова";
+        :title            "贵族老夫人" .
+
+:莫斯科    :relatedTo  :库图佐夫 .
+
+:Occupation_社交名媛  a       :Occupation;
+        :occupationTitle  "社交名媛" .
+
+:俄式雪橇   :relatedTo  :尼古拉·罗斯托夫 .
+
+:民间宗教仪式  :relatedTo  :罗斯托夫家仆 .
+
+:橡树     :relatedTo  :安德烈·鲍尔康斯基 .
+
+:东正教    :relatedTo  :玛丽亚·鲍尔康斯卡娅 , :费多西尤什卡 .
+
+:Occupation_寡妇  a         :Occupation;
+        :occupationTitle  "寡妇" .
+
+:小娜塔莎）  a                 :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "娜塔莉亚·罗斯托娃";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "尾声第一章";
+        :hasFather        :尼古拉·罗斯托夫;
+        :hasMother        :玛丽亚·鲍尔康斯卡娅;
+        :hasOccupation    :Occupation_家族成员;
+        :nationality      "俄罗斯";
+        :relatedTo        :娜塔莉娅·伊里尼什娜·罗斯托娃;
+        :russianName      "Наташа";
+        :title            "家族成员" .
+
+:Occupation_公爵小姐  a       :Occupation;
+        :occupationTitle  "公爵小姐" .
+
+:Occupation_舞蹈教师  a       :Occupation;
+        :occupationTitle  "舞蹈教师" .
+
+:死亡与救赎  :relatedTo  :丽莎·鲍尔康斯卡娅 .
+
+:Occupation_罗斯托夫伯爵  a     :Occupation;
+        :occupationTitle  "罗斯托夫伯爵" .
+
+:宿命论    :relatedTo  :安德烈·鲍尔康斯基 , :库图佐夫 .
+
+:康德拉季耶夫娜  a               :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "康德拉季耶夫娜";
+        :employedBy       :娜塔莎·罗斯托娃;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第七章";
+        :hasOccupation    :Occupation_家庭教师;
+        :nationality      "俄罗斯";
+        :russianName      "Кондратьевна";
+        :title            "家庭教师" .
+
+:莫斯科撤退  a                :Event;
+        :eventDate       "1812年9月";
+        :eventLocation   "莫斯科";
+        :eventResult     "";
+        :involvesPerson  :库图佐夫 , :罗斯托夫家族 , :皮埃尔·别祖霍夫;
+        :relatedTo       :库图佐夫 .
+
+:Occupation_伯爵长女  a       :Occupation;
+        :occupationTitle  "伯爵长女" .
+
+:农奴制    :relatedTo  :德龙 , :玛丽亚·鲍尔康斯卡娅 .
+
+:个人在历史中的作用  :relatedTo  :拿破仑 .
+
+:Occupation_近侍  a         :Occupation;
+        :occupationTitle  "近侍" .
+
+:Occupation_军医妻子  a       :Occupation;
+        :occupationTitle  "军医妻子" .
+
+:彼得鲁什卡  a                 :Person;
+        :belongsToFamily  :鲍尔康斯基家族;
+        :chineseName      "彼得";
+        :employedBy       :尼古拉·鲍尔康斯基;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第六章";
+        :hasOccupation    :Occupation_仆从;
+        :nationality      "俄罗斯";
+        :russianName      "Петрушка";
+        :title            "仆从" .
+
+:贵族继承法  :relatedTo  :基里尔·别祖霍夫 .
+
+:Occupation_家族成员  a       :Occupation;
+        :occupationTitle  "家族成员" .
+
+:Occupation_保姆  a         :Occupation;
+        :occupationTitle  "保姆" .
+
+:Occupation_伯爵小姐  a       :Occupation;
+        :occupationTitle  "伯爵小姐" .
+
+:Occupation_餐具管家  a       :Occupation;
+        :occupationTitle  "餐具管家" .
+
+:Occupation_贵族老夫人  a      :Occupation;
+        :occupationTitle  "贵族老夫人" .
+
+:Occupation_公爵夫人  a       :Occupation;
+        :occupationTitle  "公爵夫人" .
+
+:卡捷琳娜·谢苗诺夫娜·马蒙托娃  a       :Person;
+        :belongsToFamily  :别祖霍夫家族;
+        :chineseName      "卡捷琳娜·马蒙托娃";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第八章";
+        :hasOccupation    :Occupation_贵族小姐;
+        :hasSibling       :奥莉加·马蒙托娃 , :索菲娅·马蒙托娃;
+        :nationality      "俄罗斯";
+        :russianName      "Катерина Семёновна Мамонтова";
+        :title            "贵族小姐" .
+
+:哥萨克骑兵  :relatedTo  :多洛霍夫 .
+
+:尼古拉·安德烈伊奇  a             :Person;
+        :belongsToFamily  :鲍尔康斯基家族;
+        :chineseName      "小尼古拉";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第六章";
+        :hasFather        :安德烈·鲍尔康斯基;
+        :hasMother        :丽莎·鲍尔康斯卡娅;
+        :hasOccupation    :Occupation_家族继承人;
+        :nationality      "俄罗斯";
+        :russianName      "Николай Андреич";
+        :title            "家族继承人" .
+
+:德萨尔    a                 :Person;
+        :belongsToFamily  :鲍尔康斯基家族;
+        :chineseName      "德萨尔";
+        :employedBy       :小尼古拉;
+        :ethnicity        "瑞士族";
+        :firstAppearance  "第一部第六章";
+        :hasOccupation    :Occupation_家庭教师;
+        :nationality      "瑞士";
+        :russianName      "Десаль";
+        :title            "家庭教师" .
+
+:莫斯科大火  a                  :Event;
+        :eventDate         "1812-09-14";
+        :eventLocation     "莫斯科";
+        :eventResult       "";
+        :familyAffectedBy  :罗斯托夫家族;
+        :involvesPerson    :皮埃尔·别祖霍夫 , :罗斯托夫家族 , :拿破仑;
+        :relatedTo         :皮埃尔·别祖霍夫 .
+
+:Occupation_伯爵继承人  a      :Occupation;
+        :occupationTitle  "伯爵继承人" .
+
+:安娜·帕夫洛夫娜·舍列尔  a          :Person;
+        :belongsToFamily  :其他;
+        :chineseName      "安娜·舍列尔";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第一章";
+        :hasOccupation    :Occupation_宫廷女官;
+        :nationality      "俄罗斯";
+        :russianName      "Анна Павловна Шерер";
+        :title            "宫廷女官" .
+
+:娜塔莎私奔事件  a              :Event;
+        :eventDate       "1812年";
+        :eventLocation   "莫斯科";
+        :eventResult     "";
+        :involvesPerson  :娜塔莎·罗斯托娃 , :玛丽亚·阿赫罗西莫娃 , :阿纳托利·库拉金 , :多洛霍夫;
+        :relatedTo       :玛丽亚·阿赫罗西莫娃 , :多洛霍夫 .
+
+:瓦西里·谢尔盖耶维奇·库拉金  a        :Person;
+        :belongsToFamily  :库拉金家族;
+        :chineseName      "瓦西里·库拉金";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第一章";
+        :hasChild         :伊波利特·库拉金 , :伊波利特·瓦西里耶维奇·库拉金 , :叶莲娜·库拉金娜 , :阿纳托利·库拉金 , :阿纳托利·瓦西里耶维奇·库拉金 , :叶莲娜·瓦西里耶夫娜·库拉金娜;
+        :hasOccupation    :Occupation_库拉金公爵;
+        :hasSpouse        :阿琳娜·库拉金娜;
+        :nationality      "俄罗斯";
+        :russianName      "Василий Сергеевич Курагин";
+        :title            "库拉金公爵" .
+
+:索菲娅·谢苗诺夫娜·马蒙托娃  a        :Person;
+        :belongsToFamily  :别祖霍夫家族;
+        :chineseName      "索菲娅·马蒙托娃";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第八章";
+        :hasOccupation    :Occupation_贵族小姐;
+        :hasSibling       :卡捷琳娜·马蒙托娃 , :奥莉加·马蒙托娃;
+        :nationality      "俄罗斯";
+        :russianName      "Софья Семёновна Мамонтова";
+        :title            "贵族小姐" .
+
+:拉夫鲁什卡  a                 :Person;
+        :belongsToFamily  :其他;
+        :chineseName      "拉夫鲁什卡";
+        :employedBy       :杰尼索夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第三部第四章";
+        :hasOccupation    :Occupation_仆人;
+        :nationality      "俄罗斯";
+        :russianName      "Лаврушка";
+        :title            "仆人" .
+
+:Occupation_继承人  a        :Occupation;
+        :occupationTitle  "继承人" .
+
+:游击战    :relatedTo  :多洛霍夫 .
+
+:爱情与牺牲  :relatedTo  :娜塔莎·罗斯托娃 .
+
+:Occupation_骠骑兵军官  a      :Occupation;
+        :occupationTitle  "骠骑兵军官" .
+
+:米沙     a                 :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "米哈伊尔";
+        :employedBy       :尼古拉·罗斯托夫;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第七章";
+        :hasOccupation    :Occupation_仆人;
+        :nationality      "俄罗斯";
+        :russianName      "Миша";
+        :title            "仆人" .
+
+:共济会仪式  :relatedTo  :约瑟夫·阿列克谢耶维奇 .
+
+:Occupation_厨子  a         :Occupation;
+        :occupationTitle  "厨子" .
+
+:Occupation_伯爵夫人  a       :Occupation;
+        :occupationTitle  "伯爵夫人" .
+
+:炮兵阵地   :relatedTo  :巴格拉季昂亲王 .
+
+:Occupation_农民士兵  a       :Occupation;
+        :occupationTitle  "农民士兵" .
+
+:米坚卡    a                 :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "德米特里·罗斯托夫";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "尾声第一章";
+        :hasFather        :尼古拉·罗斯托夫;
+        :hasMother        :玛丽亚·鲍尔康斯卡娅;
+        :hasOccupation    :Occupation_家族成员;
+        :nationality      "俄罗斯";
+        :russianName      "Митенька";
+        :title            "家族成员" .
+
+:奥莉加·谢苗诺夫娜·马蒙托娃  a        :Person;
+        :belongsToFamily  :别祖霍夫家族;
+        :chineseName      "奥莉加·马蒙托娃";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第八章";
+        :hasOccupation    :Occupation_贵族小姐;
+        :hasSibling       :索菲娅·马蒙托娃 , :卡捷琳娜·马蒙托娃;
+        :nationality      "俄罗斯";
+        :russianName      "Ольга Семёновна Мамонтова";
+        :title            "贵族小姐" .
+
+:沙龙政治   :relatedTo  :海伦·库拉金娜 , :比利宾 .
+
+:Occupation_宫廷女官  a       :Occupation;
+        :occupationTitle  "宫廷女官" .
+
+:骠骑兵    :relatedTo  :尼古拉·罗斯托夫 .
+
+:Occupation_乐师  a         :Occupation;
+        :occupationTitle  "乐师" .
+
+:Occupation_外交官  a        :Occupation;
+        :occupationTitle  "外交官" .
+
+:Occupation_女教徒  a        :Occupation;
+        :occupationTitle  "女教徒" .
+
+:生命意义探索  :relatedTo  :普拉东·卡拉塔耶夫 , :皮埃尔·别祖霍夫 .
+
+:Occupation_仆人  a         :Occupation;
+        :occupationTitle  "仆人" .
+
+:童山庄园撤退  a               :Event;
+        :eventDate       "1812年";
+        :eventLocation   "童山";
+        :eventResult     "";
+        :involvesPerson  :玛丽亚·鲍尔康斯卡娅 , :尼古拉·罗斯托夫 , :小尼古拉;
+        :relatedTo       :小尼古拉 .
+
+:安娜·米哈伊洛夫娜·德鲁别茨卡娅  a      :Person;
+        :belongsToFamily  :其他;
+        :chineseName      "安娜·德鲁别茨卡娅";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第一章";
+        :hasChild         :鲍里斯·德鲁别茨科伊;
+        :hasOccupation    :Occupation_公爵夫人;
+        :nationality      "俄罗斯";
+        :russianName      "Анна Михайловна Друбецкая";
+        :title            "公爵夫人" .
+
+:Occupation_家族继承人  a      :Occupation;
+        :occupationTitle  "家族继承人" .
+
+:波罗底诺战役  a               :Event;
+        :eventDate       "1812-09-07";
+        :eventLocation   "莫斯科以西";
+        :eventResult     "战略俄军胜利";
+        :involvesPerson  :拿破仑 , :库图佐夫 , :皮埃尔·别祖霍夫 , :安德烈·鲍尔康斯基;
+        :relatedTo       :皮埃尔·别祖霍夫 , :安德烈·鲍尔康斯基 .
+
+:阿琳娜·库拉金娜  a              :Person;
+        :belongsToFamily  :库拉金家族;
+        :chineseName      "阿琳娜·库拉金娜";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第二章";
+        :hasChild         :伊波利特·库拉金 , :阿纳托利·库拉金 , :叶莲娜·库拉金娜;
+        :hasOccupation    :Occupation_公爵夫人;
+        :hasSpouse        :瓦西里·谢尔盖耶维奇·库拉金;
+        :nationality      "俄罗斯";
+        :russianName      "Арина Курагина";
+        :title            "公爵夫人" .
+
+:奥斯特里茨战役  a              :Event;
+        :eventDate       "1805-12-02";
+        :eventLocation   "摩拉维亚";
+        :eventResult     "法军胜利";
+        :hasRoleInEvent  :尼古拉·罗斯托夫;
+        :involvesPerson  :尼古拉·罗斯托夫 , :拿破仑 , :安德烈·鲍尔康斯基 , :库图佐夫;
+        :relatedTo       :安德烈·鲍尔康斯基 , :库图佐夫 .
+
+:Occupation_村长  a         :Occupation;
+        :occupationTitle  "村长" .
+
+:波莉娅    a                 :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "波莉娅";
+        :employedBy       :娜塔莎·罗斯托娃;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第七章";
+        :hasOccupation    :Occupation_女仆;
+        :nationality      "俄罗斯";
+        :russianName      "Поля";
+        :title            "女仆" .
+
+:Occupation_女仆  a         :Occupation;
+        :occupationTitle  "女仆" .
+
+:圣像画    :relatedTo  :玛丽亚·鲍尔康斯卡娅 .
+
+:Occupation_花匠  a         :Occupation;
+        :occupationTitle  "花匠" .
+
+:家庭幸福观  :relatedTo  :玛丽亚·鲍尔康斯卡娅 , :皮埃尔·别祖霍夫 .
+
+:民间信仰   :relatedTo  :普拉东·卡拉塔耶夫 .
+
+:Occupation_猎手  a         :Occupation;
+        :occupationTitle  "猎手" .
+
+:玛丽亚·亨里霍夫娜  a             :Person;
+        :belongsToFamily  :其他;
+        :chineseName      "玛丽亚·亨里霍夫娜";
+        :ethnicity        "日耳曼族";
+        :firstAppearance  "第三部第五章";
+        :hasOccupation    :Occupation_军医妻子;
+        :hasSpouse        :团部军医;
+        :nationality      "德国";
+        :russianName      "Мария Генриховна";
+        :title            "军医妻子" .
+
+:Occupation_侍者  a         :Occupation;
+        :occupationTitle  "侍者" .
+
+:陪嫁制度   :relatedTo  :索尼娅 .
+
+:Occupation_马夫  a         :Occupation;
+        :occupationTitle  "马夫" .
+
+:Occupation_餐厅管事  a       :Occupation;
+        :occupationTitle  "餐厅管事" .
+
+:战争神圣性  :relatedTo  :库图佐夫 .
+
+:战争与和平辩证  :relatedTo  <http://wrrc.org/wap#托尔斯泰(作者)> , :波罗底诺战役 .
+
+:贵族征兵制  :relatedTo  :鲍里斯·德鲁别茨科伊 .
+
+:Occupation_家庭教师  a       :Occupation;
+        :occupationTitle  "家庭教师" .
+
+:临终忏悔   :relatedTo  :丽莎·鲍尔康斯卡娅 .
+
+:Occupation_贵族小姐  a       :Occupation;
+        :occupationTitle  "贵族小姐" .
+
+:圣像     :relatedTo  :费多西尤什卡 .
+
+:Occupation_表亲  a         :Occupation;
+        :occupationTitle  "表亲" .
+
+:皮埃尔被俘  a                :Event;
+        :cellmateOf      :普拉东·卡拉塔耶夫;
+        :eventDate       "1812年";
+        :eventLocation   "莫斯科";
+        :eventResult     "";
+        :involvesPerson  :皮埃尔·别祖霍夫 , :普拉东·卡拉塔耶夫 , :拿破仑 .
+
+:Occupation_军官  a         :Occupation;
+        :occupationTitle  "军官" .
+
+:Occupation_公爵继承人  a      :Occupation;
+        :occupationTitle  "公爵继承人" .
+
+:Occupation_管家  a         :Occupation;
+        :occupationTitle  "管家" .
+
+:沙龙文化   :relatedTo  :海伦·库拉金娜 .
+
+:Occupation_别祖霍夫伯爵  a     :Occupation;
+        :occupationTitle  "别祖霍夫伯爵" .
+
+:Occupation_退休将军  a       :Occupation;
+        :occupationTitle  "退休将军" .
+
+:皮埃尔决斗  a                :Event;
+        :eventDate       "1809年";
+        :eventLocation   "圣彼得堡";
+        :eventResult     "";
+        :involvesPerson  :皮埃尔·别祖霍夫 , :多洛霍夫 , :海伦·库拉金娜;
+        :relatedTo       :海伦·库拉金娜 .
+
+:军事贵族   :relatedTo  :尼古拉·罗斯托夫 .
+
+:Occupation_车夫  a         :Occupation;
+        :occupationTitle  "车夫" .
+
+:别祖霍夫继承案  a              :Event;
+        :eventDate       "1805年初";
+        :eventLocation   "圣彼得堡";
+        :eventResult     "";
+        :involvesPerson  :皮埃尔·别祖霍夫 , :瓦西里·库拉金 , :安娜·德鲁别茨卡娅;
+        :relatedTo       :瓦西里·库拉金 , :安娜·德鲁别茨卡娅 .
+
+:民团     :relatedTo  :皮埃尔·别祖霍夫 .
+
+:参谋体系   :relatedTo  :比利宾 .
+
+:狩猎     :relatedTo  :伊利亚·罗斯托夫 .
+
+:贵族责任   :relatedTo  :尼古拉·罗斯托夫 .
+
+:安德留沙   a                 :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "安德烈·罗斯托夫";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "尾声第一章";
+        :hasFather        :尼古拉·罗斯托夫;
+        :hasMother        :玛丽亚·鲍尔康斯卡娅;
+        :hasOccupation    :Occupation_家族成员;
+        :nationality      "俄罗斯";
+        :relatedTo        :尼古拉·伊里奇·罗斯托夫;
+        :russianName      "Андрюша";
+        :title            "家族成员" .
+
+:杜尼亚莎   a                 :Person;
+        :belongsToFamily  :鲍尔康斯基家族;
+        :chineseName      "杜尼亚莎";
+        :employedBy       :玛丽亚·鲍尔康斯卡娅;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第六章";
+        :hasOccupation    :Occupation_女仆;
+        :nationality      "俄罗斯";
+        :russianName      "Дуняша";
+        :title            "女仆" .
+
+:法军溃退   a                :Event;
+        :eventDate       "1812年冬";
+        :eventLocation   "俄罗斯";
+        :eventResult     "";
+        :involvesPerson  :拿破仑 , :库图佐夫 , :杰尼索夫游击队;
+        :relatedTo       :杰尼索夫游击队 .
+
+:费多西尤什卡  a                :Person;
+        :belongsToFamily  :鲍尔康斯基家族;
+        :chineseName      "费多西娅";
+        :employedBy       :玛丽亚·鲍尔康斯卡娅;
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第六章";
+        :hasOccupation    :Occupation_女教徒;
+        :nationality      "俄罗斯";
+        :relatedTo        :玛丽亚·尼古拉耶芙娜·鲍尔康斯卡娅;
+        :russianName      "Федосьюшка";
+        :title            "女教徒" .
+
+:Occupation_库拉金公爵  a      :Occupation;
+        :occupationTitle  "库拉金公爵" .
+
+:Occupation_仆从  a         :Occupation;
+        :occupationTitle  "仆从" .
+
+:Occupation_驯犬师  a        :Occupation;
+        :occupationTitle  "驯犬师" .
+
+:安德烈之死  a                :Event;
+        :eventDate       "1812年";
+        :eventLocation   "童山庄园";
+        :eventResult     "";
+        :involvesPerson  :玛丽亚·鲍尔康斯卡娅 , :安德烈·鲍尔康斯基 , :娜塔莎·罗斯托娃 , :尼古拉·罗斯托夫;
+        :relatedTo       :娜塔莎·罗斯托娃 , :玛丽亚·鲍尔康斯卡娅 .
+
+:比利宾    a                 :Person;
+        :belongsToFamily  :其他;
+        :chineseName      "比利宾";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第二部第二章";
+        :friendOf         :娜塔莉娅·伊里尼什娜·罗斯托娃;
+        :hasOccupation    :Occupation_外交官;
+        :nationality      "俄罗斯";
+        :russianName      "Билибин";
+        :title            "外交官" .
+
+:婚姻制度   :relatedTo  :瓦西里·库拉金 .
+
+:保罗格勒团冲锋  a              :Event;
+        :eventDate       "1805年";
+        :eventLocation   "奥地利";
+        :eventResult     "";
+        :involvesPerson  :尼古拉·罗斯托夫 , :杰尼索夫 , :图申上尉;
+        :relatedTo       :杰尼索夫 , :图申上尉 .
+
+:Occupation_女管家  a        :Occupation;
+        :occupationTitle  "女管家" .
+
+:索菲娅·亚历山德罗夫娜  a           :Person;
+        :belongsToFamily  :罗斯托夫家族;
+        :chineseName      "索尼娅";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第一部第八章";
+        :hasOccupation    :Occupation_表亲;
+        :nationality      "俄罗斯";
+        :russianName      "Соня";
+        :title            "表亲" .
+
+:共济会    :relatedTo  :约瑟夫·阿列克谢耶维奇 .
+
+:佩拉格娅·丹尼洛夫娜·梅柳科娃  a       :Person;
+        :belongsToFamily  :其他;
+        :chineseName      "佩拉格娅·梅柳科娃";
+        :ethnicity        "俄罗斯族";
+        :firstAppearance  "第二部第四章";
+        :hasOccupation    :Occupation_寡妇;
+        :nationality      "俄罗斯";
+        :russianName      "Пелагея Даниловна Мелюкова";
+        :title            "寡妇" .
