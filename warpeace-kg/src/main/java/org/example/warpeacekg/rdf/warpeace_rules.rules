@@ -1,0 +1,41 @@
+@prefix wap: <http://wrrc.org/wap#> .
+
+# -------------------------------------------------
+# 家族与继承
+# -------------------------------------------------
+[ruleParent: (?p wap:hasChild ?c) -> (?c wap:childOf ?p)]
+
+[ruleGrandParent: (?g wap:hasChild ?p) (?p wap:hasChild ?c) -> (?g wap:hasGrandChild ?c)]
+
+[ruleSibSym: (?a wap:hasSibling ?b) -> (?b wap:hasSibling ?a)]
+
+[ruleSpouseSym: (?a wap:hasSpouse ?b) -> (?b wap:hasSpouse ?a)]
+
+# 配偶 → 夫妻同属家族（跨家族联姻）
+[ruleCrossFamily: (?a wap:hasSpouse ?b) (?a wap:belongsToFamily ?fa) (?b wap:belongsToFamily ?fb)
+                 -> (?fa wap:alliedWith ?fb)]
+
+# -------------------------------------------------
+# 主仆 / 职务链
+# -------------------------------------------------
+[ruleEmploys: (?a wap:employedBy ?b) -> (?b wap:employs ?a)]
+
+[ruleServantOfFamily: (?s wap:employedBy ?o) (?o wap:belongsToFamily ?f)
+                     -> (?s wap:servesFamily ?f)]
+
+# 管家/女管家 → 管理庄园
+[ruleSteward: (?s wap:hasOccupation ?o) (?o wap:occupationTitle ?t) regex(?t, ".*管家.*")
+             -> (?s wap:managesEstateOf ?o)]
+
+# -------------------------------------------------
+# 事件-家族/个人 连锁
+# -------------------------------------------------
+[eventAffectsFamily: (?e wap:involvesPerson ?per) (?per wap:belongsToFamily ?fam)
+                    -> (?fam wap:familyAffectedBy ?e)]
+
+[eventAffectsPerson: (?e wap:involvesPerson ?per)
+                    -> (?per wap:participatesInEvent ?e)]
+
+# 参战负伤 → 获得“战争经历”
+[warExperience: (?e wap:involvesPerson ?per) (?e wap:eventType "战役")
+               -> (?per wap:hasWarExperience ?e)]
