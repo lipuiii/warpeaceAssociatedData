@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>智能问答 - 《战争与和平》知识图谱</title>
+
+    <!-- CSS 引入 -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/logo.jpg">
+    <link href="/css/nifty.min.css" rel="stylesheet">
+    <link href="/css/nifty-demo-icons.min.css" rel="stylesheet">
+    <link href="/css/nifty-demo.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/wiki.css" rel="stylesheet">
+    <link href="/css/custom.css" rel="stylesheet">
+    <link href="/css/pace.min.css" rel="stylesheet">
+    <script src="/js/pace.min.js"></script>
+
+    <!-- JS 引入 -->
+    <script src="/js/jquery-2.2.4.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/nifty.min.js"></script>
+    <script src="/js/icons.js"></script>
+    <script src="/js/echarts.min.js"></script>
+</head>
+
+<body>
+<div id="container" class="effect aside-float aside-bright mainnav-lg">
+
+    <!-- 顶部导航栏 -->
+    <header id="navbar">
+        <div id="navbar-container" class="boxed">
+            <div class="navbar-header">
+                <a href="/" class="navbar-brand">
+                    <div class="brand-title">
+                        <span class="brand-text">《战争与和平》知识图谱</span>
+                    </div>
+                </a>
+            </div>
+            <div class="navbar-content clearfix">
+                <ul class="nav navbar-top-links pull-right">
+                    <li><a href="/search">人物关系检索</a></li>
+                    <li><a href="/graph">关系全貌</a></li>
+                    <li><a href="/answer" class="active">智能问答</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- 内容区域 -->
+    <div class="boxed">
+        <div id="content-container">
+            <div id="page-content">
+                <h4 class="text-main pad-btm bord-btm">智能问答系统</h4>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="alert alert-info">
+                            <i class="fa fa-info-circle"></i> 您可以输入关于《战争与和平》人物关系的问题，例如：“伊丽莎白的父亲是谁？”
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-group">
+                            <input type="text" id="search" class="form-control input-lg" placeholder="请输入你的问题...">
+                            <span class="input-group-addon btn btn-primary" onclick="search()">搜索</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <div id="guanxi" style="height: 600px;"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="character-info-box">
+                            <div class="basic-info">
+                                <dl class="basicInfo-block basicInfo-left" id="answer">
+                                    <div class="placeholder-text text-center">
+                                        <i class="fa fa-comment-o fa-4x text-muted"></i>
+                                        <p class="mt-3 text-muted">请在上方输入问题进行查询</p>
+                                    </div>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 返回顶部按钮 -->
+    <button class="scroll-top btn"><i class="pci-chevron chevron-up"></i></button>
+</div>
+
+<!-- JS逻辑 -->
+<script type="text/javascript">
+    $(document).keypress(function (e) {
+        if (e.which == 13) search();
+    });
+
+    window.onresize = function () {
+        myChart.resize();
+    };
+
+    var myChart = echarts.init(document.getElementById("guanxi"));
+    myChart.showLoading();
+
+    var option = {
+        title: { textStyle: { fontWeight: "lighter" } },
+        animationDurationUpdate: 1500,
+        animationEasingUpdate: 'quinticInOut',
+        series: [{
+            type: 'graph',
+            layout: 'force',
+            symbolSize: 60,
+            edgeSymbol: ['circle', 'arrow'],
+            edgeSymbolSize: [4, 4],
+            edgeLabel: {
+                normal: {
+                    show: true,
+                    fontSize: 10,
+                    formatter: "{c}"
+                }
+            },
+            force: {
+                repulsion: 2500,
+                edgeLength: [10, 100],
+                layoutAnimation: true
+            },
+            focusNodeAdjacency: true,
+            draggable: true,
+            roam: true,
+            label: {
+                normal: {
+                    show: true,
+                    fontSize: 12,
+                    position: 'right'
+                }
+            },
+            tooltip: {
+                formatter: function (node) {
+                    if (!node.value) return node.data.name;
+                    else return node.data.name + ":" + node.value;
+                }
+            },
+            lineStyle: {
+                normal: {
+                    opacity: 0.9,
+                    width: 1.5,
+                    curveness: 0.3
+                }
+            },
+            data: [],
+            links: []
+        }]
+    };
+
+    myChart.setOption(option);
+    myChart.hideLoading();
+
+    myChart.on('click', function (params) {
+        if (params.dataType === 'node') {
+            var name = params.data.name;
+            if (name.includes('\n')) name = name.replace('\n', '');
+            $.getJSON('/api/qa/profile', { character_name: name }, function (data) {
+                // data 是 { text: "..." }
+                $("#answer").html(data.text);
+            }).fail(function () {
+                $("#answer").html("<div class='alert alert-danger'>加载详情失败</div>");
+            });
+        }
+    });
+
+    function search() {
+        var name = $("#search").val();
+        if (name === '') {
+            alert("请输入问题！");
+            return;
+        }
+
+        myChart.showLoading();
+        $("#answer").html("<div class='text-center'><i class='fa fa-spinner fa-spin fa-2x'></i><p class='mt-2'>正在查询中...</p></div>");
+
+
+        option.series[0].data = [];
+        option.series[0].links = [];
+        myChart.setOption(option, true);
+
+        $.getJSON('/api/qa/answer', { name: name }, function (res) {
+            myChart.hideLoading();
+
+            if (res && res.data && res.data.length >= 2) {
+                var graph = res.data[0];
+                var textAnswer = res.data[1];
+
+                if (graph && graph.data && graph.links && graph.data.length > 0) {
+                    option.series[0].data = graph.data;
+                    option.series[0].links = graph.links;
+                    myChart.setOption(option, true);
+                    setTimeout(() => myChart.resize(), 100);
+                }
+
+                if (textAnswer) {
+                    $("#answer").html("<div class='alert alert-success'><i class='fa fa-check-circle'></i> " + textAnswer + "</div>");
+                } else {
+                    $("#answer").html("<div class='alert alert-warning'><i class='fa fa-exclamation-triangle'></i> 未找到相关信息</div>");
+                }
+            } else {
+                $("#answer").html("<div class='alert alert-danger'><i class='fa fa-times-circle'></i> 查询结果格式有误，请重试</div>");
+                myChart.clear();
+            }
+        });
+    }
+</script>
+</body>
+</html>
