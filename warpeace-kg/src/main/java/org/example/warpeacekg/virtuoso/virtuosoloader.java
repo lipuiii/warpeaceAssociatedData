@@ -48,6 +48,6 @@ public class virtuosoloader {
         VirtGraph virtGraph = connectVirtuosoDB();
 
         // 插入 RDF 数据
-        insertVirtuosoRDFData(virtGraph, "war_and_peace_data.ttl");
+        insertVirtuosoRDFData(virtGraph, "src/main/java/org/example/warpeacekg/rdf/war_and_peace_merged.ttl");
     }
 }
